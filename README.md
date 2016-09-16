@@ -2,7 +2,7 @@
 Towards Moving Scientific Applications in the Cloud 
 
 Steps:
-In case you are using (SNIC) based on OpenStack cloud suite, download (.sh) configuration file and source it inside your Ubuntu or Mac terminal. For example, in my case it is "ACC-Course-openrc.sh". 
+In case you are using Swedish National Infrastructure for computing (SNIC), based on OpenStack cloud suite, download (.sh) configuration file and source it inside your Ubuntu or Mac terminal. For example, in my case it is "ACC-Course-openrc.sh". 
 
 Also install python novaclient on your machine by using the following command:
 
@@ -13,7 +13,7 @@ Also install python novaclient on your machine by using the following command:
 
 > nova boot -flavor m1.medium --image "Ubuntu Server 14.04 LTS (Trusty Tahr)" --key-name Saim --user-data=init-sparkMaster.sh SparkMaster
 
-You should put your 'key name' after the argument --key-name. Similarly, you can choose -flavor either large or medium according to your requirement. And as well as --image.
+You should put your 'key name' after the argument --key-name. Similarly, you can choose -flavor either large, medium or small according to your requirement. And as well as --image.
 
 For --user-data argument, you have to use the files (i.e. initSparkMaster and initSparkWorker etc) and made specified changes in them. Download them at the current directory from where you'll run your terminal command. You can check it by typing 'pwd' inside your terminal. 
 
