@@ -1,7 +1,6 @@
+# QTLAnalysis
 A framework designed by the resources from Swedish National Infrastructure for computing (SNIC) using Apache Spark, SparkR, R language & Jupyter Notebook to enable computations of highly parallel scientific applications.
 
-# QTLAnalysis
-Towards Moving Scientific Applications in the Cloud 
 
 Steps:
 In case you are using Swedish National Infrastructure for computing (SNIC), based on OpenStack cloud suite, download (.sh) configuration file and source it inside your Ubuntu or Mac terminal. For example, in my case it is "ACC-Course-openrc.sh". 
