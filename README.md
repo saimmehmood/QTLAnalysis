@@ -1,4 +1,4 @@
-# QTLAnalysis
+# Towards Moving Scientific Applications in the Cloud
 A framework designed by the resources from Swedish National Infrastructure for computing (SNIC) using Apache Spark, SparkR, R language & Jupyter Notebook to enable computations of highly parallel scientific applications.
 
 
