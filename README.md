@@ -3,6 +3,9 @@ A framework designed by the resources from Swedish National Infrastructure for c
 
 - Cloud computing provides usability, scalability and on demand availability of computational and storage resources, remotely. These are the characteristics required by scientific applications and that’s why we used it. The project had two dimensions. First one addresses the benefits of cloud infrastructure for end users. In the second portion, we tried to do performance analysis.
 
+## Overview
+
+![](images/overview.png)
 
 
 ### Analysis:
