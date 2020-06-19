@@ -1,8 +1,11 @@
 # Towards Moving Scientific Applications in the Cloud
 A framework designed by the resources from Swedish National Infrastructure for computing (SNIC) using Apache Spark, SparkR, R language & Jupyter Notebook to enable computations of highly parallel scientific applications.
 
+- Cloud computing provides usability, scalability and on demand availability of computational and storage resources, remotely. These are the characteristics required by scientific applications and that’s why we used it. The project had two dimensions. First one addresses the benefits of cloud infrastructure for end users. In the second portion, we tried to do performance analysis.
 
-Steps:
+
+
+### Analysis:
 In case you are using Swedish National Infrastructure for computing (SNIC), based on OpenStack cloud suite, download (.sh) configuration file and source it inside your Ubuntu or Mac terminal. For example, in my case it is "ACC-Course-openrc.sh". 
 
 Also install python novaclient on your machine by using the following command:
