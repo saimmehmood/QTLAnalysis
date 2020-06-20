@@ -48,7 +48,7 @@ elements and solved by the Algebraic Multigrid method (AMG) and simulated using 
 From the results we see that, the run time while solving the problem on the cloud scales as well as when solving it on the bare metal machine. 
 The increase usability and simplicitythat comes with our framework can be seen as a tradeoff with performance degradation that appears when using the cloud.
 
-![](images/result)
+![](images/result.png)
 
 ### Running Server:
 In case you are using Swedish National Infrastructure for computing (SNIC), based on OpenStack cloud suite, download (.sh) configuration file and source it inside your Ubuntu or Mac terminal. For example, in my case it is "ACC-Course-openrc.sh". 
