@@ -46,7 +46,7 @@ elements and solved by the Algebraic Multigrid method (AMG) and simulated using 
 
 ### Results
 From the results we see that, the run time while solving the problem on the cloud scales as well as when solving it on the bare metal machine. 
-The increase usability and simplicitythat comes with our framework can be seen as a tradeoff with performance degradation that appears when using the cloud.
+The increase usability and simplicity that comes with our framework can be seen as a tradeoff with performance degradation that appears when using the cloud.
 
 ![](images/result.png)
 
