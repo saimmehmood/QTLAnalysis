@@ -20,7 +20,7 @@ Using already existing technologies i.e. R language, Apache Spark, SparkR, Jupyt
 we have designed a framework that help biologists run their QTL (Quantitative traits loci) code on cloud.
 
 ### Problem
-Cloud computingprovides usability, scalabilityand on demand availability of resources, remotely. That’s why we are using it for scientific applications. 
+Cloud computing provides usability, scalability and on demand availability of resources, remotely. That’s why we are using it for scientific applications. 
 We have designed an architecture in cloud that help scientists run their applications elastically. In addition we are also 
 quantifying the performance overhead when using cloud to solve a numerical experiment. 
 To evaluate performance, we ran already existing MPI (Message Passing Interface) code on the cloud.
