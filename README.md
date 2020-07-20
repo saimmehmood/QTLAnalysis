@@ -13,7 +13,7 @@ A framework designed by the resources from Swedish National Infrastructure for c
 
 ### Directions
 - Application as a service
-- Performance analysis of scientificapplications
+- Performance analysis of scientific applications
 
 ### QTL as a service (QTLaaS)
 Using already existing technologies i.e. R language, Apache Spark, SparkR, Jupyter notebook and OpenStack cloud infrastructure, 
