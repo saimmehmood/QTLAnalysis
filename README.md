@@ -1,7 +1,7 @@
 # Towards Moving Scientific Applications in the Cloud
 A framework designed by the resources from Swedish National Infrastructure for computing (SNIC) using Apache Spark, SparkR, R language & Jupyter Notebook to enable computations of highly parallel scientific applications.
 
-- Cloud computing provides usability, scalability and on demand availability of computational and storage resources, remotely. These are the characteristics required by scientific applications and that’s why we used it. The project had two dimensions. First one addresses the benefits of cloud infrastructure for end users. In the second portion, we tried to do performance analysis.
+- Cloud computing provides usability, scalability and on demand availability of computational and storage resources, remotely. These are the characteristics required by scientific applications and that’s why we are using it. The project had two dimensions. First one addresses the benefits of cloud infrastructure for end users. In the second portion, we tried to do performance analysis.
 
 ## Overview
 ![](images/overview.png)
@@ -20,6 +20,7 @@ Using already existing technologies i.e. R language, Apache Spark, SparkR, Jupyt
 we have designed a framework that help biologists run their QTL (Quantitative traits loci) code on cloud.
 
 ### Problem
+Exisiting applications are running on clusters with very little capacity to sustain scalability if user demand and load increases.
 Cloud computing provides usability, scalability and on demand availability of resources, remotely. That’s why we are using it for scientific applications. 
 We have designed an architecture in cloud that help scientists run their applications elastically. In addition we are also 
 quantifying the performance overhead when using cloud to solve a numerical experiment. 
@@ -57,7 +58,7 @@ Also install python novaclient on your machine by using the following command:
 
 > sudo apt-get install python-novaclient
 
-    -  Now check the availability of nova by typing "nova" in your terminal. It'll display list of commands. Go through them if needed.
+    -  Now check the availability of nova by typing "nova" in your terminal. It will display list of commands. Go through them if needed.
     -  Type the following command in your terminal for setting up Spark Master.
 
 > nova boot -flavor m1.medium --image "Ubuntu Server 14.04 LTS (Trusty Tahr)" --key-name Saim --user-data=init-sparkMaster.sh SparkMaster
